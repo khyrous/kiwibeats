@@ -2,114 +2,47 @@
   list-style: none;
   text-decoration: none; }
 
-body {
-  position: relative; }
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
 
-.greytextbox {
-  background-color: #D3D3D3;
-  border-radius: 10px; }
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
 
 /* ---------- Header ---------- */
-.Kiwititle {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 7.9vw;
-  position: absolute;
-  left: 5vw;
-  top: -10.1vw; }
-
-.hrtag {
-  margin-top: 1.35vw; }
-
-.headerlines {
-  height: 8vw; }
-
-.navlist {
-  margin-left: 50vw;
-  margin-top: -3.5vw; }
-
-.navlinks {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 1vw;
-  display: inline-block;
-  margin-left: 2vw;
-  color: black; }
+.titlebox {
+  position: relative;
+  margin-top: 1px;
+  height: 2.68em;
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid; }
+  .titlebox .kiwiBeatsTitle {
+    position: absolute;
+    font-size: 4.4em;
+    top: -0.15em;
+    left: 0;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300; }
+  .titlebox .hrtag {
+    margin: 0.6566em 0 0 0;
+    width: 100%; }
 
 /* ---------- Footer ---------- */
-.footercopyright {
-  text-align: center;
-  margin-bottom: -15px;
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 1vw; }
-
-.footerlinks {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 0.8vw;
-  margin-top: 10px;
-  color: black;
-  width: 97px; }
-
-.footerlinkcontainer {
-  position: absolute;
-  top: 3vw;
-  left: 17vw; }
-
-.footerBox {
-  background-color: #E6E5E3;
-  height: 300px;
-  position: relative; }
-
-.footerbaseline {
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
-
-.footercontactdetaildiv {
-  position: absolute;
-  left: 70vw;
-  top: 4vw; }
-
-.footercontactdetaildivheader {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 0.85vw; }
-
-.footeremail {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 0.8vw; }
-
-.footerfb {
-  font-family: 'Julius Sans One', sans-serif;
-  font-size: 0.8vw;
-  color: black; }
-
-.facebookiconmove {
-  color: black;
-  position: absolute;
-  top: 5vw;
-  left: 4.5vw; }
-
-.blackcolor {
-  color: black; }
-
 /* ---------- Home Page ---------- */
-.mainimage {
-  height: 500px;
-  width: 650px;
-  float: left;
-  margin-left: 11vw;
-  margin-top: 4vw; }
-
-.homepagebody {
-  margin-bottom: 6vw; }
-
-.homepagetextbox {
-  width: 21vw;
-  float: left;
-  padding: 1vw;
-  margin-left: 5vw;
-  margin-top: 6vw; }
-
-.homepagetext {
-  font-size: 0.9vw; }
+section {
+  display: none; }
 
 /* ---------- Lessons ---------- */
 /* ---------- About Us ---------- */

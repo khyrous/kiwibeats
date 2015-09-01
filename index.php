@@ -1,19 +1,17 @@
 <?php
 require_once("includes/header.php");
 ?>
-<div class="clearfix homepagebody">
-    <img src="img/band/homepagefull2.jpg" alt="" class="mainimage">
-    <div class="greytextbox homepagetextbox">
-        <pa class="homepagetext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan libero et lobortis elementum.
-            Mauris quam purus, lobortis vitae pellentesque ac, lobortis ut arcu. Praesent quis justo eleifend, lobortis 
-            arcu sed, scelerisque lacus. Donec pellentesque dignissim turpis a dapibus. Duis accumsan ultrices tortor ut
-            consequat. Vestibulum feugiat eros leo, vitae aliquam lorem tempus sit amet. Donec posuere efficitur libero 
-            ac sodales. Sed purus turpis, porttitor vel diam nec, varius tincidunt lectus. Nulla quis magna felis.
-        </p>
-    </div>
+<main>
+    <section><div>
+        <p>Welcome to KiwiBeats.co.nz<br>
 
-</div>
+Top quality tuition by young relatable Kiwis.<br>
+Kiwi Beats has a passion to spread the love of music through enjoyable, stimulating and flexible lessons. We steer away from the traditional spoon fed approach to music tuition and instead focus on inspiring all of our students to build a passion for music through exciting lesson plans and relatable young teachers. 
+<br>
+We firmly believe that talent cannot thrive without passion. Our awesome team are flexible to your requirements and cannot wait to get started!  </p>
+    </div></section>
+
+</main>
 
 <?php
 require_once("includes/footer.php");

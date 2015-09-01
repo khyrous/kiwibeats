@@ -1,21 +1,9 @@
-<div class="footerBox">
-    <ul class="nolinkstyling footerlinkcontainer">
-    <li class="footerlinks">Links:</li>
-    <li class="footerlinks"><a class=" blackcolor nolinkstyling" href="">Lessons</a></li>
-    <li class="footerlinks"><a class=" blackcolor nolinkstyling" href="">About Us</a></li>
-    <li class="footerlinks"><a class=" blackcolor nolinkstyling" href="">Contact Us</a></li>
-</ul>
 
-<div class="footercontactdetaildiv">
-    <p class="footercontactdetaildivheader">Contact Details</p>
-    <p class="footeremail">luke@kiwibeats.co.nz</p>
-    <a href="" class="nolinkstyling"><p class="footerfb">Facebook </p><i class="facebookiconmove fa fa-facebook-official"></i></a>
-</div>
 
-<div class="footerbaseline"><p class="footercopyright">© Kiwibeats 2015</p>
-<hr>
-</div>
-</div>
+
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>

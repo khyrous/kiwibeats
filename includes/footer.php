@@ -1,6 +1,11 @@
-
-
-
+<footer>
+	<div class="contactDetails">
+<p>Contact Details</p>
+    <p class="footeremail">luke@kiwibeats.co.nz</p>
+    <a href="" class="nolinkstyling"><p class="footerfb">Facebook </p><i class="fa fa-facebook-official"></i></a>
+</div>
+<p class="footercopyright">© Kiwibeats 2015</p>
+</footer>
 
 
 

@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link href='https://fonts.googleapis.com/css?family=Work+Sans:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:300,400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
@@ -22,9 +23,15 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-
-<div class="titlebox clearfix"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEATS</p></div>
-
-
+<header>
+<div class="titlebox clearfix"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></div>
+<nav>
+    <ul>
+        <li><a>Lessons</a></li>
+        <li><a>About Us</a></li>
+        <li><a>Contact Us</a></li>
+    </ul>
+</nav>
+</header>
 
 <!-- Main Body -->

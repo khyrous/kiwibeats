@@ -1,59 +1,152 @@
-$boxsize : 2.68em;
-$textsize:4.4em;
-$texttop:0.15em;
+$textsize:4.375em;
+$boxsize :$textsize*0.61257;
+$texttop:$textsize*0.03657;
 $hrmagin: $boxsize *0.245;
 .nolinkstyling {
+  color:black;
   list-style: none;
-  text-decoration: none; }
-  hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-  }
-  .clearfix:before,
-  .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-  }
+  text-decoration: none; 
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
 
-  .clearfix:after {
-    clear: both;
+.clearfix:after {
+  clear: both;
+}
+body{
+  position: relative;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:flex-end;
+} 
+/* ---------- Header ---------- */
+header{
+  flex:0 0 100%;
+.titlebox{
+  position:relative;
+  height:$boxsize;
+  margin-top:$boxsize*0.24;
+  border-top:1px #ccc solid;
+  border-bottom:1px #ccc solid;
+  .kiwiBeatsTitle{
+    position: absolute;
+    font-size:$textsize;
+    top:-$texttop;
+    left:0;
+    margin:0;
+    font-family: 'Yantramanav', sans-serif; font-weight: 300; 
   }
+  .kiwibeatsS{
+    font-family: 'Yantramanav', sans-serif; font-weight: 300; 
+    font-size:$textsize*0.978;
+    position:absolute;
+    top:-$texttop*0.9375;
+    left:$textsize*0.928;
+  }
+  .hrtag{
+    margin:$hrmagin 0 0 0;
+    width:100%;
+  }
+}
 
-  /* ---------- Header ---------- */
-  .titlebox{
-    position:relative;
-margin-top:1px;
-height:$boxsize;
-    border-top:1px #ccc solid;
+nav{
+  ul{
+  margin-top:0.5em;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  li{
+        font-family: 'Yantramanav', sans-serif; font-weight: 400; 
+    flex:1 1px;
+    text-align:center;
+  }
+  li:nth-child(2){
+    border-left:1px #ccc solid;
+    border-right:1px #ccc solid;
+  }
+  }
+}
+
+}
+/* ---------- Footer ---------- */
+  footer{
+    flex:0 0 100%;
+    align-self:flex-end;
+background-color:#E6E5E3;
+font-family: 'Julius Sans One', sans-serif;
+padding-top:1.35em;
+padding-bottom:0.5em;
+.contactDetails{
+  font-size:0.75em;
+  margin-left:0.5em;
+}
+.footerfb{
+  display:inline;
+}
+  .footercopyright{
     border-bottom:1px #ccc solid;
-    .kiwiBeatsTitle{
-      position: absolute;
-      font-size:$textsize;
-      top:-$texttop;
-      left:0;
-      margin:0;
-      font-family: 'Roboto Slab', serif; font-weight: 300; 
-    }
-    .hrtag{
-      margin:$hrmagin 0 0 0;
-      width:100%;
-    }
+    text-align: center;
   }
 
-
-
-
-  /* ---------- Footer ---------- */
-
-
-  /* ---------- Home Page ---------- */
+  }
+/* ---------- Home Page ---------- */
+main{
+  flex:0 0 100%;
   section{
-    display:none;
+    margin-top:2em;
+    .mainText{
+      padding:0.75em;
+    }
   }
+  }
+/* ---------- Read More Slider ---------- */
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  margin-top:.5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
 
   /* ---------- Lessons ---------- */
 

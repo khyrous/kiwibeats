@@ -27,7 +27,8 @@ hr {
 body{
   position: relative;
   display:flex;
-  flex-flow:row wrap;
+  min-height:100vh;
+  flex-flow:column wrap;
   justify-content:flex-end;
 } 
 /* ---------- Header ---------- */
@@ -66,12 +67,13 @@ nav{
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
+  max-width:40em;
   li{
-        font-family: 'Yantramanav', sans-serif; font-weight: 400; 
+    font-family: 'Yantramanav', sans-serif; font-weight: 400; 
     flex:1 1px;
     text-align:center;
   }
-  li:nth-child(2){
+  li:nth-child(odd){
     border-left:1px #ccc solid;
     border-right:1px #ccc solid;
   }
@@ -84,6 +86,7 @@ nav{
     flex:0 0 100%;
     align-self:flex-end;
 background-color:#E6E5E3;
+width:100%;
 font-family: 'Julius Sans One', sans-serif;
 padding-top:1.35em;
 padding-bottom:0.5em;
@@ -102,7 +105,7 @@ padding-bottom:0.5em;
   }
 /* ---------- Home Page ---------- */
 main{
-  flex:0 0 100%;
+  flex:1 0 100%;
   section{
     margin-top:2em;
     .mainText{
@@ -122,7 +125,7 @@ main{
   transition: .25s ease;
 }
 
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
+.read-more-state:checked ~ .read-more-wrap > .read-more-target {
   opacity: 1;
   font-size: inherit;
   max-height: 999em;
@@ -147,6 +150,48 @@ main{
   border: 1px solid #ddd;
   border-radius: .25em;
 }
+
+
+
+
+
+@media only screen and (min-width : 34em) {//544px
+
+}
+@media (min-width: 48em) {//768px
+
+}
+@media (min-width: 62em) {//992px
+
+.mainText{
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* ---------- Lessons ---------- */
 

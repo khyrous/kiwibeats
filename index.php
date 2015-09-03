@@ -2,7 +2,9 @@
 require_once("includes/header.php");
 ?>
 <main>
-    <section><div class="mainText">
+    <section><img src="" alt="">
+
+        <div class="mainText">
         <input type="checkbox" class="read-more-state" id="post-1"/>
         <p class="read-more-wrap">Welcome to KiwiBeats.co.nz<br>
 

@@ -34,6 +34,7 @@ body{
 /* ---------- Header ---------- */
 header{
   flex:0 0 100%;
+
 .titlebox{
   position:relative;
   height:$boxsize;
@@ -83,8 +84,8 @@ nav{
 }
 /* ---------- Footer ---------- */
   footer{
-    flex:0 0 100%;
-    align-self:flex-end;
+flex:0 0 100%;
+align-self:flex-end;
 background-color:#E6E5E3;
 width:100%;
 font-family: 'Julius Sans One', sans-serif;

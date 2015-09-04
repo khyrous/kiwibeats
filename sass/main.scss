@@ -120,16 +120,11 @@ main{
 }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
+display:none;
 }
 
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
+display:block;
 }
 
 .read-more-state ~ .read-more-trigger:before {
@@ -160,6 +155,21 @@ main{
 
 }
 @media (min-width: 48em) {//768px
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap > .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+
 
 }
 @media (min-width: 62em) {//992px

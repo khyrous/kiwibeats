@@ -123,15 +123,10 @@ main {
   display: none; }
 
 .read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease; }
+  display: none; }
 
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em; }
+  display: block; }
 
 .read-more-state ~ .read-more-trigger:before {
   content: 'Show more'; }
@@ -149,6 +144,19 @@ main {
   line-height: 2;
   border: 1px solid #ddd;
   border-radius: .25em; }
+
+@media (min-width: 48em) {
+  .read-more-target {
+    display: inline;
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease; }
+  .read-more-state:checked ~ .read-more-wrap > .read-more-target {
+    display: inline;
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em; } }
 
 /* ---------- Lessons ---------- */
 /* ---------- About Us ---------- */

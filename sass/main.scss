@@ -157,6 +157,7 @@ display:block;
 @media (min-width: 48em) {//768px
 
 .read-more-target {
+  display:inline;
   opacity: 0;
   max-height: 0;
   font-size: 0;
@@ -164,6 +165,7 @@ display:block;
 }
 
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
+  display:inline;
   opacity: 1;
   font-size: inherit;
   max-height: 999em;

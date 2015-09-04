@@ -113,9 +113,17 @@ main {
   -webkit-flex: 1 0 100%;
   -ms-flex: 1 0 100%;
   flex: 1 0 100%; }
+  main .homePageImage {
+    display: none; }
   main section {
-    margin-top: 2em; }
+    margin-top: 2em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
     main section .mainText {
+      max-width: 24em;
+      margin-left: auto;
+      margin-right: auto;
       padding: 0.75em; }
 
 /* ---------- Read More Slider ---------- */
@@ -126,7 +134,7 @@ main {
   display: none; }
 
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
-  display: block; }
+  display: inline; }
 
 .read-more-state ~ .read-more-trigger:before {
   content: 'Show more'; }
@@ -134,11 +142,16 @@ main {
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Show less'; }
 
+.read-more-state ~ .read-more-trigger {
+  margin-top: 2.755em; }
+
+.read-more-state:checked ~ .read-more-trigger {
+  margin-top: .5em; }
+
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
   padding: 0 0.5em;
-  margin-top: .5em;
   color: #666;
   font-size: .9em;
   line-height: 2;
@@ -146,6 +159,10 @@ main {
   border-radius: .25em; }
 
 @media (min-width: 48em) {
+  .read-more-state ~ .read-more-trigger {
+    margin-top: .5em; }
+  .read-more-state:checked ~ .read-more-trigger {
+    margin-top: .5em; }
   .read-more-target {
     display: inline;
     opacity: 0;
@@ -156,7 +173,20 @@ main {
     display: inline;
     opacity: 1;
     font-size: inherit;
-    max-height: 999em; } }
+    max-height: 10em; } }
+
+@media (min-width: 62em) {
+  main .homePageImage {
+    display: block;
+    margin-left: 1em;
+    width: 100%;
+    max-width: 46.875em;
+    height: 30em;
+    background-image: url("../img/band/North Head Jams 2.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 60%; }
+  main .mainText {
+    margin-top: 8.5em; } }
 
 /* ---------- Lessons ---------- */
 /* ---------- About Us ---------- */

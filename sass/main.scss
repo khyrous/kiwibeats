@@ -107,9 +107,14 @@ padding-bottom:0.5em;
 /* ---------- Home Page ---------- */
 main{
   flex:1 0 100%;
+  .homePageImage{display:none;}
   section{
     margin-top:2em;
+    display:flex;
     .mainText{
+      max-width:24em;
+      margin-left:auto;
+      margin-right:auto;
       padding:0.75em;
     }
   }
@@ -124,7 +129,7 @@ display:none;
 }
 
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
-display:block;
+display:inline;
 }
 
 .read-more-state ~ .read-more-trigger:before {
@@ -134,12 +139,17 @@ display:block;
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'Show less';
 }
+.read-more-state ~ .read-more-trigger {
+  margin-top:2.755em;
+}
 
+.read-more-state:checked ~ .read-more-trigger {
+    margin-top:.5em;
+}
 .read-more-trigger {
   cursor: pointer;
   display: inline-block;
   padding: 0 .5em;
-  margin-top:.5em;
   color: #666;
   font-size: .9em;
   line-height: 2;
@@ -153,9 +163,16 @@ display:block;
 
 @media only screen and (min-width : 34em) {//544px
 
+
+
 }
 @media (min-width: 48em) {//768px
-
+.read-more-state ~ .read-more-trigger {
+  margin-top:.5em;
+}
+.read-more-state:checked ~ .read-more-trigger {
+    margin-top:.5em;
+}
 .read-more-target {
   display:inline;
   opacity: 0;
@@ -163,22 +180,36 @@ display:block;
   font-size: 0;
   transition: .25s ease;
 }
-
 .read-more-state:checked ~ .read-more-wrap > .read-more-target {
   display:inline;
   opacity: 1;
   font-size: inherit;
-  max-height: 999em;
+  max-height: 10em;
 }
 
 
 
 }
 @media (min-width: 62em) {//992px
-
+main{
+ 
+ .homePageImage{
+  display:block;
+  margin-left:1em;
+  width:100%;
+  max-width:46.875em;
+  height:30em;
+  background-image:url("../img/band/North Head Jams 2.jpg");
+  background-repeat: no-repeat;
+  background-position:30% 60%;
+ }
 .mainText{
+  margin-top:8.5em;
+}
+
 
 }
+
 }
 
 

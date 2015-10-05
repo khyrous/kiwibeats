@@ -13,7 +13,8 @@ Kiwi Beats has a passion to spread the love of music through enjoyable, stimulat
 <br>
 We firmly believe that talent cannot thrive without passion. Our awesome team are flexible to your requirements and cannot wait to get started!  </span></p>
     <label for="post-1" class="read-more-trigger"></label>
-    </div></section>
+    </div>
+</section>
 </main>
 
 <?php

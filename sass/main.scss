@@ -51,6 +51,7 @@ header{
       left:0;
       margin:0;
       font-family: 'Yantramanav', sans-serif; font-weight: 300; 
+      z-index:40;
     }
     .kiwibeatsS{
       font-family: 'Yantramanav', sans-serif; font-weight: 300; 
@@ -58,6 +59,7 @@ header{
       position:absolute;
       top:-$texttop*0.9375;
       left:$textsize*0.928;
+      z-index:40;
     }
     .hrtag{
       margin:$hrmagin 0 0 0;
@@ -76,6 +78,7 @@ header{
         font-family: 'Yantramanav', sans-serif; font-weight: 400; 
         flex:1 1px;
         text-align:center;
+        z-index:50;
       }
       li:nth-child(odd){
         border-left:1px #ccc solid;
@@ -136,11 +139,11 @@ main{
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
+  content: 'Read more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
+  content: 'Hide';
 }
 .read-more-state ~ .read-more-trigger {
   margin-top:2.755em;
@@ -216,7 +219,7 @@ footer{
     .homePageImage{
       display:block;
       margin-left:2em;
-      margin-bottom:3.5em;
+
       width:100%;
       max-width:46.875em;
       height:30em;

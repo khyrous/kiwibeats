@@ -52,14 +52,16 @@ header {
       left: 0;
       margin: 0;
       font-family: 'Yantramanav', sans-serif;
-      font-weight: 300; }
+      font-weight: 300;
+      z-index: 40; }
     header .titlebox .kiwibeatsS {
       font-family: 'Yantramanav', sans-serif;
       font-weight: 300;
       font-size: 4.27875em;
       position: absolute;
       top: -0.14999em;
-      left: 4.06em; }
+      left: 4.06em;
+      z-index: 40; }
     header .titlebox .hrtag {
       margin: 0.5896em 0 0 0;
       width: 100%; }
@@ -84,7 +86,8 @@ header {
       -webkit-flex: 1 1px;
       -ms-flex: 1 1px;
       flex: 1 1px;
-      text-align: center; }
+      text-align: center;
+      z-index: 50; }
     header .topNav ul li:nth-child(odd) {
       border-left: 1px #ccc solid;
       border-right: 1px #ccc solid; }
@@ -141,10 +144,10 @@ main {
   display: inline; }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Show more'; }
+  content: 'Read more'; }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less'; }
+  content: 'Hide'; }
 
 .read-more-state ~ .read-more-trigger {
   margin-top: 2.755em; }
@@ -187,7 +190,6 @@ main {
   main section .homePageImage {
     display: block;
     margin-left: 2em;
-    margin-bottom: 3.5em;
     width: 100%;
     max-width: 46.875em;
     height: 30em;

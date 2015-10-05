@@ -25,7 +25,7 @@
 <!-- Add your site or application content here -->
 <header>
 <div class="titlebox clearfix"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></div>
-<nav>
+<nav class="topNav">
     <ul>
         <li><a>Lessons</a></li>
         <li><a>About Us</a></li>

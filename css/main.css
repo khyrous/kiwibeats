@@ -63,7 +63,7 @@ header {
     header .titlebox .hrtag {
       margin: 0.5896em 0 0 0;
       width: 100%; }
-  header nav ul {
+  header .topNav ul {
     margin-top: 0.5em;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -74,15 +74,18 @@ header {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    max-width: 40em; }
-    header nav ul li {
+    max-width: 40em;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    header .topNav ul li {
       font-family: 'Yantramanav', sans-serif;
       font-weight: 400;
       -webkit-flex: 1 1px;
       -ms-flex: 1 1px;
       flex: 1 1px;
       text-align: center; }
-    header nav ul li:nth-child(odd) {
+    header .topNav ul li:nth-child(odd) {
       border-left: 1px #ccc solid;
       border-right: 1px #ccc solid; }
 
@@ -124,7 +127,8 @@ main {
       max-width: 24em;
       margin-left: auto;
       margin-right: auto;
-      padding: 0.75em; }
+      padding: 0.75em;
+      font-size: 1em; }
 
 /* ---------- Read More Slider ---------- */
 .read-more-state {
@@ -173,20 +177,78 @@ main {
     display: inline;
     opacity: 1;
     font-size: inherit;
-    max-height: 10em; } }
+    max-height: 10em; }
+  main section .mainText {
+    font-size: 1.1em; }
+  footer .contactDetails {
+    font-size: 1em; } }
 
 @media (min-width: 62em) {
-  main .homePageImage {
+  main section .homePageImage {
     display: block;
-    margin-left: 1em;
+    margin-left: 2em;
+    margin-bottom: 3.5em;
     width: 100%;
     max-width: 46.875em;
     height: 30em;
     background-image: url("../img/band/North Head Jams 2.jpg");
     background-repeat: no-repeat;
     background-position: 30% 60%; }
-  main .mainText {
-    margin-top: 8.5em; } }
+  main section .mainText {
+    font-size: 1.1em;
+    margin-top: 8.5em;
+    margin-left: 0; }
+  header .titlebox {
+    height: 3.34631em;
+    margin-top: 0.80312em; }
+    header .titlebox .kiwiBeatsTitle {
+      font-size: 5.375em;
+      top: -0.16125em; }
+    header .titlebox .kiwibeatsS {
+      font-size: 5.16em;
+      top: -0.14835em;
+      left: 4.3em; }
+    header .titlebox .hrtag {
+      margin: 0.73619em 0 0 0;
+      width: 100%; }
+  header .topNav ul {
+    font-size: 1.2em; } }
+
+@media (min-width: 75em) {
+  main section {
+    display: block; }
+    main section .homePageImage {
+      max-width: 100%;
+      display: block;
+      margin-left: 0; }
+    main section .mainText {
+      margin-top: 3em;
+      width: 100%;
+      max-width: 30em;
+      clear: both;
+      margin-left: 10em;
+      margin-bottom: 2em;
+      font-size: 1.2em; }
+  header .titlebox {
+    height: 4.59145em;
+    margin-top: 1.10195em; }
+    header .titlebox .kiwiBeatsTitle {
+      font-size: 7.375em;
+      top: -0.15488em; }
+    header .titlebox .kiwibeatsS {
+      font-size: 7.11687em;
+      top: -0.14249em;
+      left: 4.13em; }
+    header .titlebox .hrtag {
+      margin: 1.01012em 0 0 0;
+      width: 100%; }
+  header .topNav ul {
+    font-size: 1.2em; }
+  footer .contactDetails {
+    margin-left: 5em;
+    font-size: 1.1em; }
+  footer .footercopyright {
+    font-size: 1.32em; } }
 
 /* ---------- Lessons ---------- */
 /* ---------- About Us ---------- */

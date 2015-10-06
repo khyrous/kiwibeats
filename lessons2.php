@@ -14,7 +14,7 @@ Lessons are aimed towards beginner & intermediate musicians or soon to be musici
 who are keen to improve their musical vocabulary or for beginners wanting an introductory 
 to an instrument and music as a whole. 
 
-<span class="read-more-target"><br>This is an important aspect to us as we firmly believe that significant results are a product of the students’ interest in music & their given instrument.</span></p>
+<span class="read-more-target"><br><br>This is an important aspect to us as we firmly believe that significant results are a product of the students’ interest in music & their given instrument.</span></p>
     <label for="post-1" class="read-more-trigger"></label>
 </div>
     </section>

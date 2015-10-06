@@ -96,6 +96,7 @@ footer{
   font-family: 'Julius Sans One', sans-serif;
   padding-top:1.35em;
   padding-bottom:0.5em;
+  margin-top:2em;
   .contactDetails{
     font-size:$footerTextSize;
     margin-left:0.5em;
@@ -126,6 +127,7 @@ main{
   }
 }
 /* ---------- Read More Slider ---------- */
+
 .read-more-state {
   display: none;
 }
@@ -146,7 +148,7 @@ main{
   content: 'Hide';
 }
 .read-more-state ~ .read-more-trigger {
-  margin-top:2.755em;
+  margin-top:.5em;
 }
 
 .read-more-state:checked ~ .read-more-trigger {
@@ -179,11 +181,12 @@ main{
    
 
   .read-more-state ~ .read-more-trigger {
-    margin-top:.5em;
+  margin-top:.5em;
   }
   .read-more-state:checked ~ .read-more-trigger {
     margin-top:.5em;
   }
+
   .read-more-target {
     display:inline;
     opacity: 0;
@@ -229,9 +232,9 @@ footer{
     }
 
     .mainText{
-     font-size:$mainTextSize;
-      margin-top:8.5em;
-       margin-left:0;
+    font-size:$mainTextSize;
+    margin-top:6em;
+    margin-left:0;
     }
 
 
@@ -350,7 +353,26 @@ footer{
 
 /* ---------- Lessons ---------- */
 
+.contact-box{
+  margin-left:auto !important;
+  border:1px black solid;
+  .contactPhoto{
+    display:none;
+    height:8em;
+    width:8em;
+    float:left;
+    padding-right:0.8em;
+  }
 
+}
+@media (min-width: 48em) {
+  .contactPhoto{
+display:block !important;
+}
+  .contactText{
+    font-size:0.8em;
+  }
+}
 
 
 /* ---------- About Us ---------- */

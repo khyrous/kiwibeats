@@ -2,10 +2,12 @@
 require_once("includes/header.php");
 ?>
 <main>
+	<h1 class="mainTextHeader">About Us</h1>
 	<section>
-		<div class="mainText">
+
+		<div class="mainText about-box">
 			<input type="checkbox" class="read-more-state" id="post-1"/>
-			<p class="read-more-wrap">About Us<br><br>
+			<p class="read-more-wrap">
 				What makes us different to other teachers is our age.
 				Our goal to stimulate a passion for each student is achieved not only through enjoyable lessons but through our ability to relate to students.<br>
 				We have recently been in the same position as our students so we sure know what was difficult, 

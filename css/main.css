@@ -116,6 +116,11 @@ footer {
     text-align: center; }
 
 /* ---------- Home Page ---------- */
+.mainTextHeader {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Yantramanav', sans-serif; }
+
 main {
   -webkit-flex: 1 0 100%;
   -ms-flex: 1 0 100%;
@@ -135,6 +140,9 @@ main {
       font-size: 1em; }
 
 /* ---------- Read More Slider ---------- */
+.read-more-wrap {
+  font-family: 'Lato', sans-serif; }
+
 .read-more-state {
   display: none; }
 
@@ -198,7 +206,6 @@ main {
     background-repeat: no-repeat;
     background-position: 30% 60%; }
   main section .mainText {
-    font-size: 1.1em;
     margin-top: 6em;
     margin-left: 0; }
   header .titlebox {
@@ -254,21 +261,46 @@ main {
     font-size: 1.32em; } }
 
 /* ---------- Lessons ---------- */
-.contact-box {
-  margin-left: auto !important;
-  border: 1px black solid; }
-  .contact-box .contactPhoto {
-    display: none;
-    height: 8em;
-    width: 8em;
-    float: left;
-    padding-right: 0.8em; }
-
-@media (min-width: 48em) {
-  .contactPhoto {
-    display: block !important; }
-  .contactText {
-    font-size: 0.8em; } }
+.lesson-box {
+  margin-left: auto !important; }
+  .lesson-box .lessonBulletPoints {
+    font-weight: 700; }
 
 /* ---------- About Us ---------- */
+.about-box {
+  margin-left: auto !important; }
+
+@media (max-width: 32em) {
+  .about-box {
+    font-size: .9em !important; }
+  .lesson-box {
+    font-size: .9em !important; } }
+
 /* ---------- Contact Us ---------- */
+.contact-box {
+  margin-left: auto !important;
+  border: 1px black solid;
+  width: 85%; }
+  .contact-box .contactPhotoDiv {
+    max-height: 18em;
+    float: left; }
+    .contact-box .contactPhotoDiv .contactPhoto {
+      display: none;
+      height: 8em;
+      width: 8em;
+      float: left;
+      padding-right: 0.8em; }
+  .contact-box .read-more-wrap {
+    font-size: 0.9em; }
+
+@media (min-width: 48em) {
+  .contactPhotoDiv .contactPhoto {
+    display: block !important; } }
+
+@media (min-width: 62em) {
+  .contact-box {
+    margin-top: 0 !important; }
+  .about-box {
+    margin-top: 0 !important; }
+  .lesson-box {
+    margin-top: 0 !important; } }

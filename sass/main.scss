@@ -85,7 +85,7 @@ header{
         border-right:1px #ccc solid;
       }
     }
-    }
+  }
 }
 /* ---------- Footer ---------- */
 footer{
@@ -177,11 +177,11 @@ main{
 
 @media (min-width: 48em) {//768px
   $mainTextSize:1.1em;
-   $footerTextSize:1em;
-   
+  $footerTextSize:1em;
+
 
   .read-more-state ~ .read-more-trigger {
-  margin-top:.5em;
+    margin-top:.5em;
   }
   .read-more-state:checked ~ .read-more-trigger {
     margin-top:.5em;
@@ -200,29 +200,26 @@ main{
     font-size: inherit;
     max-height: 10em;
   }
-   main section{
+  main section{
     .mainText{
-     font-size:$mainTextSize;
+      font-size:$mainTextSize;
     }
   }
 
-footer{
-  .contactDetails{
-    font-size:$footerTextSize;
+  footer{
+    .contactDetails{
+      font-size:$footerTextSize;
+    }
   }
-}
 
 
 }
 @media (min-width: 62em) {//992px
-   $mainTextSize:1.1em;
-   main section{
-
-
+  $mainTextSize:1.1em;
+  main section{
     .homePageImage{
       display:block;
       margin-left:2em;
-
       width:100%;
       max-width:46.875em;
       height:30em;
@@ -230,125 +227,106 @@ footer{
       background-repeat: no-repeat;
       background-position:30% 60%;
     }
-
     .mainText{
-    font-size:$mainTextSize;
-    margin-top:6em;
-    margin-left:0;
-    }
-
-
-  }
-
-header{
-  $textsize:5.375em;
-  $boxsize :$textsize*0.62257;
-  $texttop:$textsize*0.030;
-  $hrmagin: $boxsize *0.22;
-  .titlebox{
-    height:$boxsize;
-    margin-top:$boxsize*0.24;
-    .kiwiBeatsTitle{
-      font-size:$textsize;
-      top:-$texttop;
-    }
-    .kiwibeatsS{
-      font-size:$textsize*0.96;
-      top:-$texttop*0.92;
-      left:$textsize*0.8;
-    }
-    .hrtag{
-      margin:$hrmagin 0 0 0;
-      width:100%;
+      font-size:$mainTextSize;
+      margin-top:6em;
+      margin-left:0;
     }
   }
-  .topNav{
-    ul{
-      font-size:1.2em;
+
+  header{
+    $textsize:5.375em;
+    $boxsize :$textsize*0.62257;
+    $texttop:$textsize*0.030;
+    $hrmagin: $boxsize *0.22;
+    .titlebox{
+      height:$boxsize;
+      margin-top:$boxsize*0.24;
+      .kiwiBeatsTitle{
+        font-size:$textsize;
+        top:-$texttop;
+      }
+      .kiwibeatsS{
+        font-size:$textsize*0.96;
+        top:-$texttop*0.92;
+        left:$textsize*0.8;
+      }
+      .hrtag{
+        margin:$hrmagin 0 0 0;
+        width:100%;
+      }
     }
-}
-}
+    .topNav{
+      ul{
+        font-size:1.2em;
+      }
+    }
+  }
 }
 
 @media (min-width: 75em) {//992px
 
-$mainTextSize:1.2em;
+  $mainTextSize:1.2em;
 
-main section{
-  display:block;
-  .homePageImage{
-    max-width:100%;
+  main section{
     display:block;
-    margin-left:0;
-  }
-  .mainText{
-    margin-top:3em;
-    width:100%;
-    max-width:30em;
-    clear:both;
-    margin-left:10em;
-    margin-bottom:2em;
-    font-size:$mainTextSize;
-  }
-}
-
-header{
-  $textsize:7.375em;
-  $boxsize :$textsize*0.62257;
-  $texttop:$textsize*0.021;
-  $hrmagin: $boxsize *0.22;
-  .titlebox{
-    height:$boxsize;
-    margin-top:$boxsize*0.24;
-    .kiwiBeatsTitle{
-      font-size:$textsize;
-      top:-$texttop;
+    .homePageImage{
+      max-width:100%;
+      display:block;
+      margin-left:0;
     }
-    .kiwibeatsS{
-      font-size:$textsize*0.965;
-      top:-$texttop*0.92;
-      left:$textsize*0.56;
-    }
-    .hrtag{
-      margin:$hrmagin 0 0 0;
+    .mainText{
+      margin-top:3em;
       width:100%;
+      max-width:30em;
+      clear:both;
+      margin-left:10em;
+      margin-bottom:2em;
+      font-size:$mainTextSize;
     }
   }
-  .topNav{
-    ul{
-      font-size:1.2em;
+
+  header{
+    $textsize:7.375em;
+    $boxsize :$textsize*0.62257;
+    $texttop:$textsize*0.021;
+    $hrmagin: $boxsize *0.22;
+    .titlebox{
+      height:$boxsize;
+      margin-top:$boxsize*0.24;
+      .kiwiBeatsTitle{
+        font-size:$textsize;
+        top:-$texttop;
+      }
+      .kiwibeatsS{
+        font-size:$textsize*0.965;
+        top:-$texttop*0.92;
+        left:$textsize*0.56;
+      }
+      .hrtag{
+        margin:$hrmagin 0 0 0;
+        width:100%;
+      }
     }
-}
-}
+    .topNav{
+      ul{
+        font-size:1.2em;
+      }
+    }
+  }
 
   $footerTextSize:1.1em;
-footer{
+  footer{
 
-  .contactDetails{
-    margin-left:5em;
-    font-size:$footerTextSize;
-  }
-  .footercopyright{
-     font-size:$footerTextSize*1.2;
+    .contactDetails{
+      margin-left:5em;
+      font-size:$footerTextSize;
+    }
+    .footercopyright{
+      font-size:$footerTextSize*1.2;
+    }
   }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ---------- Lessons ---------- */
@@ -367,16 +345,17 @@ footer{
 }
 @media (min-width: 48em) {
   .contactPhoto{
-display:block !important;
-}
+    display:block !important;
+  }
   .contactText{
     font-size:0.8em;
   }
 }
-
 
 /* ---------- About Us ---------- */
 
 
 
 /* ---------- Contact Us ---------- */
+
+

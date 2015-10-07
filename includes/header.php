@@ -25,7 +25,7 @@
 
 <!-- Add your site or application content here -->
 <header>
-    <div  class="titlebox clearfix"><a href="index.php" class="nolinkstyling"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></a></div>
+    <div class="titlebox clearfix"><a href="index.php" class="nolinkstyling"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></a></div>
     <nav class="topNav">
         <ul>
             <li><a class="nolinkstyling" href="lessons.php">Lessons</a></li>

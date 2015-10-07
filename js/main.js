@@ -12,7 +12,7 @@ function slider(){
 	}else if(i===3){
 		$( ".homePageImage" ).css( "background-image", "url('img/band/photo3.jpg')");
 	}else if(i===4){
-		$( ".homePageImage" ).css( "background-image", "url('img/band/photo4.jpg')");$( ".homePageImage" ).css("background-position","60% 20%");
+		$( ".homePageImage" ).css( "background-image", "url('img/band/photo4.jpg')");$( ".homePageImage" ).css("background-position","30% 20%");
 		i=0;
 	}
 	

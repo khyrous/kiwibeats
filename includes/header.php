@@ -28,11 +28,9 @@
     <div  class="titlebox clearfix"><a href="index.php" class="nolinkstyling"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></a></div>
     <nav class="topNav">
         <ul>
-
             <li><a class="nolinkstyling" href="lessons.php">Lessons</a></li>
             <li><a class="nolinkstyling" href="aboutUs.php">About Us</a></li>
             <li><a class="nolinkstyling" href="contactUs.php">Contact Us</a></li>
-
         </ul>
     </nav>
 </header>

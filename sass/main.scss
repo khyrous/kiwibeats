@@ -219,9 +219,9 @@ text-align:center;
           width: 100%;
           max-width: 46.875em;
           height: 30em;
-          background-image: url("../img/band/North Head Jams 2.jpg");
           background-repeat: no-repeat;
           background-position: 30% 60%;
+          transition: background 0.5s linear;
       }
       .mainText {
           margin-top: 6em;

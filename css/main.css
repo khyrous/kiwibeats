@@ -45,7 +45,7 @@ header {
     margin-top: 0.6432em;
     border-top: 1px #ccc solid;
     border-bottom: 1px #ccc solid; }
-    header .titlebox .kiwiBeatsTitle {
+    header .titlebox .kiwiBeatsTitleCase .kiwiBeatsTitle {
       position: absolute;
       font-size: 4.375em;
       top: -0.15999em;
@@ -54,7 +54,7 @@ header {
       font-family: 'Yantramanav', sans-serif;
       font-weight: 300;
       z-index: 40; }
-    header .titlebox .kiwibeatsS {
+    header .titlebox .kiwiBeatsTitleCase .kiwibeatsS {
       font-family: 'Yantramanav', sans-serif;
       font-weight: 300;
       font-size: 4.27875em;
@@ -102,15 +102,20 @@ footer {
   align-self: flex-end;
   background-color: #E6E5E3;
   width: 100%;
-  font-family: 'Julius Sans One', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  font-family: 'Josefin Slab', serif;
   padding-top: 1.35em;
   padding-bottom: 0.5em;
   margin-top: 2em; }
   footer .contactDetails {
-    font-size: 0.75em;
+    font-size: 0.8em;
     margin-left: 0.5em; }
   footer .footerfb {
-    display: inline; }
+    display: inline;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    font-family: 'Josefin Slab', serif; }
   footer .footercopyright {
     border-bottom: 1px #ccc solid;
     text-align: center; }
@@ -176,9 +181,7 @@ main {
 
 @media only screen and (max-width: 46em) {
   main {
-    margin-top: 6em !important; }
-  footer {
-    height: 33.85em !important; } }
+    margin-top: 6em !important; } }
 
 @media (min-width: 48em) {
   .read-more-state ~ .read-more-trigger {
@@ -199,7 +202,15 @@ main {
   main section .mainText {
     font-size: 1.1em; }
   footer .contactDetails {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .kiwiBeatsTitleCase .kiwiBeatsTitle {
+    font-size: 4.375em;
+    top: -0.15999em;
+    left: 2.25em !important; }
+  .kiwiBeatsTitleCase .kiwibeatsS {
+    font-size: 4.2em;
+    top: -0.14719em;
+    left: 6.35em !important; } }
 
 @media (min-width: 62em) {
   main section .homePageImage {
@@ -217,13 +228,14 @@ main {
   header .titlebox {
     height: 3.34631em;
     margin-top: 0.80312em; }
-    header .titlebox .kiwiBeatsTitle {
+    header .titlebox .kiwiBeatsTitleCase .kiwiBeatsTitle {
       font-size: 5.375em;
-      top: -0.16125em; }
-    header .titlebox .kiwibeatsS {
+      top: -0.16125em;
+      left: 2.5em !important; }
+    header .titlebox .kiwiBeatsTitleCase .kiwibeatsS {
       font-size: 5.16em;
       top: -0.14835em;
-      left: 4.3em; }
+      left: 6.7em !important; }
     header .titlebox .hrtag {
       margin: 0.73619em 0 0 0;
       width: 100%; }
@@ -242,29 +254,30 @@ main {
       width: 100%;
       max-width: 30em;
       clear: both;
-      margin-left: 10em;
+      margin-left: 18em;
       margin-bottom: 2em;
       font-size: 1.2em; }
   header .titlebox {
     height: 4.59145em;
     margin-top: 1.10195em; }
-    header .titlebox .kiwiBeatsTitle {
+    header .titlebox .kiwiBeatsTitleCase .kiwiBeatsTitle {
       font-size: 7.375em;
-      top: -0.15488em; }
-    header .titlebox .kiwibeatsS {
+      top: -0.15488em;
+      left: 1em !important; }
+    header .titlebox .kiwiBeatsTitleCase .kiwibeatsS {
       font-size: 7.11687em;
       top: -0.14249em;
-      left: 4.13em; }
+      left: 5.125em !important; }
     header .titlebox .hrtag {
       margin: 1.01012em 0 0 0;
       width: 100%; }
   header .topNav ul {
     font-size: 1.2em; }
   footer .contactDetails {
-    margin-left: 5em;
-    font-size: 1.1em; }
+    margin-left: 8em;
+    font-size: 1.4em; }
   footer .footercopyright {
-    font-size: 1.32em; } }
+    font-size: 1.54em; } }
 
 /* ---------- Lessons ---------- */
 .lesson-box {
@@ -310,3 +323,29 @@ main {
     margin-top: 0 !important; }
   .lesson-box {
     margin-top: 0 !important; } }
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
+{
+  main {
+    margin-top: 10em !important; }
+  footer {
+    -webkit-align-self:stretch !important;
+    clear:both !important;
+  -webkit-flex: 0 0 4rem;
+  -ms-flex: 0 0 4rem;
+  flex: 0 0 4rem;
+     } }
+
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){ @media (min-width:62em)
+{
+footer {
+margin-top:35em !important;
+}
+}
+   
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){ @media (min-width:75em)
+{
+footer {
+margin-top:55em !important;
+}
+}

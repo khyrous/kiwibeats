@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Yantramanav:300,400' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Julius+Sans+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -25,7 +26,7 @@
 
 <!-- Add your site or application content here -->
 <header>
-    <div class="titlebox clearfix"><a href="index.php" class="nolinkstyling"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></a></div>
+    <div class="titlebox clearfix"><a href="index.php" class="nolinkstyling"><hr class="hrtag"><hr class="hrtag"><hr class="hrtag"><span class="kiwiBeatsTitleCase"><p class="kiwiBeatsTitle">KIWIBEAT</p><p class="kiwibeatsS">S</p></span></a></div>
     <nav class="topNav">
         <ul>
             <li><a class="nolinkstyling" href="lessons.php">Lessons</a></li>

@@ -244,12 +244,13 @@ main section {
     margin-left: 2em;
     width: 100%;
     max-width: 46.875em;
-    height: 30em;
+    height: 25em;
     background-repeat: no-repeat;
     background-position: 30% 60%;
     transition: background 0.5s linear;
   }
   .mainText {
+    height:25em;
     margin-top: 6em;
     margin-left: 0;
   }
@@ -301,6 +302,7 @@ main section {
     margin-top: 3em;
     width: 100%;
     max-width: 30em;
+    height:12em;
     clear: both;
     margin-left: 18em;
     margin-bottom: 2em;

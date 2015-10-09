@@ -325,3 +325,28 @@ main {
     margin-top: 0 !important; }
   .lesson-box {
     margin-top: 0 !important; } }
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
+{
+  main {
+    margin-top: 10em !important; }
+  footer {
+    -webkit-align-self:stretch !important;
+    clear:both !important;
+  -webkit-flex: 0 0 4rem;
+  -ms-flex: 0 0 4rem;
+  flex: 0 0 4rem;
+     } }
+
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){ @media (min-width:62em)
+{
+footer {
+margin-top:35em !important;
+}
+}
+   
+@media screen and (min-color-index:0) and (-webkit-min-device-pixel-ratio:0){ @media (min-width:75em)
+{
+footer {
+margin-top:55em !important;
+}
+}
